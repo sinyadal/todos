@@ -2,17 +2,17 @@
 <html lang="en">
 
 <head>
-  @include('partials.head')
+  @include('partials._head')
 </head>
 
-<body>
-  @include('partials.navbar')
+<body class="uk-background-secondary">
+  @include('partials._navbar')
 
   <div uk-height-viewport="expand: true">
     @yield('content') 
   </div>
 
-  @include('partials.footer')
+  @include('partials._footer')
 </body>
 
 </html>
