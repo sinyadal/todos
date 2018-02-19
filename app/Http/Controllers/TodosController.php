@@ -14,4 +14,15 @@ class TodosController extends Controller
         return view('todos')
             ->with(compact('todos'));
     }
+
+    public function store(Request $request)
+    {
+        $todo = new Todo;
+
+        $todo->list = $request->list;
+
+        $todo->save();
+
+        return redirect()->back();
+    }
 }

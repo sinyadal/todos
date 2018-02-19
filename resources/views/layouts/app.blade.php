@@ -6,13 +6,11 @@
 </head>
 
 <body class="uk-background-secondary">
-  @include('partials._navbar')
 
   <div uk-height-viewport="expand: true">
-    @yield('content') 
+    @yield('content')
   </div>
 
-  @include('partials._footer')
 </body>
 
 </html>
