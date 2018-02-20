@@ -5,7 +5,7 @@
   @include('partials._head')
 </head>
 
-<body class="uk-background-secondary">
+<body class="uk-background-default">
 
   <div uk-height-viewport="expand: true">
     @yield('content')

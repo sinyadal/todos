@@ -13,3 +13,8 @@ $notification-message-line-height: 1.4 !default;
 // $notification-message-success-color: $global-success-background !default;
 // $notification-message-warning-color: $global-warning-background !default;
 // $notification-message-danger-color: $global-danger-background !default;
+// $spinner-size: 30px !default;
+// $spinner-stroke-width: 1 !default;
+// $spinner-radius: floor(($spinner-size - $spinner-stroke-width) / 2) !default;
+// $spinner-circumference: round(2 * 3.141 * $spinner-radius) !default;
+// $spinner-duration: 1.4s !default;

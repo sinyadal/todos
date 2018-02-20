@@ -84,7 +84,6 @@
     @if(Session::has('success'))
         UIkit.notification("<span uk-icon='icon: check'></span> {{ Session::get('success') }}");
     @endif
-    
 </script>
 
 @endsection
