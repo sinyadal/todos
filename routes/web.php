@@ -10,6 +10,7 @@ Route::prefix('todo')->group(function () {
     Route::get('/{id}', 'TodosController@status')->name('todo.status');
 });
 
+// Testing purpose
 Route::get('user/{name?}', function ($name = null) {
     return $name;
 });
